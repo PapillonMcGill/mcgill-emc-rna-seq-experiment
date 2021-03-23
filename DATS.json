@@ -21,7 +21,8 @@
         "identifier": {
           "identifier": "ilx_103885",
           "identifierSourc":"http://uri.interlex.org/base/ilx_0103885"
-          }
+        }
+      }
     }
   ],
   "privacy": "open",
@@ -164,7 +165,13 @@
       },
       "keywords": [
         {
-          "value": "RNA-seq"
+	    		"information": {
+            "identifier": {
+              "identifier": "ilx_0739716",
+              "identifierSource":"http://uri.interlex.org/base/ilx_0739716"
+            },
+			    	"value": "RNA-seq"
+          }
         },
         {
           "value": "bigWig"
@@ -275,7 +282,13 @@
       },
       "keywords": [
         {
-          "value": "RNA-seq"
+	    		"information": {
+            "identifier": {
+              "identifier": "ilx_0739716",
+              "identifierSource":"http://uri.interlex.org/base/ilx_0739716"
+            },
+			    	"value": "RNA-seq"
+          }
         },
         {
           "value": "bigWig"
@@ -592,13 +605,31 @@
   },
   "keywords": [
     {
-      "value": "Epigenomics"
+			"information": {
+        "identifier": {
+          "identifier": "ilx_0103885",
+           "identifierSource":"http://uri.interlex.org/base/ilx_0103885"
+        },
+    		"value": "epigenomics"
+      }
     },
     {
-      "value": "RNA-Seq"
+   		"information": {
+        "identifier": {
+          "identifier": "ilx_0739716",
+          "identifierSource":"http://uri.interlex.org/base/ilx_0739716"
+        },
+      	"value": "RNA-seq"
+      }
     },
     {
-      "value": "Transcriptome"
+			"information": {
+        "identifier": {
+          "identifier": "ilx_0490137",
+          "identifierSource":"http://uri.interlex.org/base/ilx_0490137"
+        },
+				"value": "transciptome"
+      }
     },
     {
       "value": "hg19"
